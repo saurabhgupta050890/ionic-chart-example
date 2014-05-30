@@ -1,0 +1,564 @@
+{
+    "data": [
+        {
+            "marksData": [
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 10,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 5,
+                        "weightedMarks": 5,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37552012,
+                        "type": "EvaluationStage",
+                        "label": "FA 1"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 10,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 5,
+                        "weightedMarks": 5,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37002015,
+                        "type": "EvaluationStage",
+                        "label": "FA 2"
+                    }
+                },
+                {
+                    "marksInfo": null,
+                    "milestoneKey": {
+                        "id": 37582013,
+                        "type": "EvaluationStage",
+                        "label": "SA 1"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 20,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 10,
+                        "weightedMarks": 10,
+                        "weightage": 20,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37602011,
+                        "type": "Term",
+                        "label": "Term 1"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 10,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "A2",
+                        "marks": 9,
+                        "weightedMarks": 9,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 9
+                    },
+                    "milestoneKey": {
+                        "id": 36982012,
+                        "type": "EvaluationStage",
+                        "label": "FA 3"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 10,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 5,
+                        "weightedMarks": 5,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37582012,
+                        "type": "EvaluationStage",
+                        "label": "FA 4"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 10,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 5,
+                        "weightedMarks": 5,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37592011,
+                        "type": "EvaluationStage",
+                        "label": "SA 2"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 30,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "B2",
+                        "marks": 19,
+                        "weightedMarks": 19,
+                        "weightage": 30,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 7
+                    },
+                    "milestoneKey": {
+                        "id": 37002014,
+                        "type": "Term",
+                        "label": "Term 2"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": "",
+                        "maxMarks": 50,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C1",
+                        "marks": 29,
+                        "weightedMarks": 29,
+                        "weightage": 50,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": "",
+                        "isNumeric": null,
+                        "numericGrade": 6
+                    },
+                    "milestoneKey": {
+                        "id": 37492011,
+                        "type": "AcademicYear",
+                        "label": "AY_14.1 release"
+                    }
+                }
+            ],
+            "subjectKey": {
+                "id": 8094,
+                "type": "Subject",
+                "label": "Hindi-VIII"
+            }
+        },
+        {
+            "marksData": [
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": null,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": null,
+                        "marks": null,
+                        "weightedMarks": null,
+                        "weightage": 20,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": null
+                    },
+                    "milestoneKey": {
+                        "id": 37552012,
+                        "type": "EvaluationStage",
+                        "label": "FA 1"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 25,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": null,
+                        "marks": null,
+                        "weightedMarks": null,
+                        "weightage": 25,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": null
+                    },
+                    "milestoneKey": {
+                        "id": 37002015,
+                        "type": "EvaluationStage",
+                        "label": "FA 2"
+                    }
+                },
+                {
+                    "marksInfo": null,
+                    "milestoneKey": {
+                        "id": 37582013,
+                        "type": "EvaluationStage",
+                        "label": "SA 1"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 25,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": null,
+                        "marks": null,
+                        "weightedMarks": null,
+                        "weightage": 45,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": null
+                    },
+                    "milestoneKey": {
+                        "id": 37602011,
+                        "type": "Term",
+                        "label": "Term 1"
+                    }
+                },
+                {
+                    "marksInfo": null,
+                    "milestoneKey": {
+                        "id": 36982012,
+                        "type": "EvaluationStage",
+                        "label": "FA 3"
+                    }
+                },
+                {
+                    "marksInfo": null,
+                    "milestoneKey": {
+                        "id": 37582012,
+                        "type": "EvaluationStage",
+                        "label": "FA 4"
+                    }
+                },
+                {
+                    "marksInfo": null,
+                    "milestoneKey": {
+                        "id": 37592011,
+                        "type": "EvaluationStage",
+                        "label": "SA 2"
+                    }
+                },
+                {
+                    "marksInfo": null,
+                    "milestoneKey": {
+                        "id": 37002014,
+                        "type": "Term",
+                        "label": "Term 2"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": "",
+                        "maxMarks": 25,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": null,
+                        "marks": null,
+                        "weightedMarks": null,
+                        "weightage": 45,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": "",
+                        "isNumeric": null,
+                        "numericGrade": null
+                    },
+                    "milestoneKey": {
+                        "id": 37492011,
+                        "type": "AcademicYear",
+                        "label": "AY_14.1 release"
+                    }
+                }
+            ],
+            "subjectKey": {
+                "id": 8093,
+                "type": "Subject",
+                "label": "English-VIII"
+            }
+        },
+        {
+            "marksData": [
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 10,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 5,
+                        "weightedMarks": 5,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37552012,
+                        "type": "EvaluationStage",
+                        "label": "FA 1"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 10,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 5,
+                        "weightedMarks": 5,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37002015,
+                        "type": "EvaluationStage",
+                        "label": "FA 2"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 10,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 5,
+                        "weightedMarks": 5,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37582013,
+                        "type": "EvaluationStage",
+                        "label": "SA 1"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 30,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 15,
+                        "weightedMarks": 15,
+                        "weightage": 30,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37602011,
+                        "type": "Term",
+                        "label": "Term 1"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 20,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C1",
+                        "marks": 12,
+                        "weightedMarks": 6,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 6
+                    },
+                    "milestoneKey": {
+                        "id": 36982012,
+                        "type": "EvaluationStage",
+                        "label": "FA 3"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 10,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C2",
+                        "marks": 5,
+                        "weightedMarks": 5,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 5
+                    },
+                    "milestoneKey": {
+                        "id": 37582012,
+                        "type": "EvaluationStage",
+                        "label": "FA 4"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 15,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "B1",
+                        "marks": 11,
+                        "weightedMarks": 7.33,
+                        "weightage": 10,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 8
+                    },
+                    "milestoneKey": {
+                        "id": 37592011,
+                        "type": "EvaluationStage",
+                        "label": "SA 2"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": null,
+                        "maxMarks": 45,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "B2",
+                        "marks": 28,
+                        "weightedMarks": 18.33,
+                        "weightage": 30,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": null,
+                        "isNumeric": null,
+                        "numericGrade": 7
+                    },
+                    "milestoneKey": {
+                        "id": 37002014,
+                        "type": "Term",
+                        "label": "Term 2"
+                    }
+                },
+                {
+                    "marksInfo": {
+                        "result": "",
+                        "maxMarks": 75,
+                        "remarks": "",
+                        "attendance": "PRESENT",
+                        "grade": "C1",
+                        "marks": 43,
+                        "weightedMarks": 33.33,
+                        "weightage": 60,
+                        "resultMarks": null,
+                        "cgpa": null,
+                        "resultGrade": null,
+                        "upscaledGrade": "",
+                        "isNumeric": null,
+                        "numericGrade": 6
+                    },
+                    "milestoneKey": {
+                        "id": 37492011,
+                        "type": "AcademicYear",
+                        "label": "AY_14.1 release"
+                    }
+                }
+            ],
+            "subjectKey": {
+                "id": 2183,
+                "type": "Subject",
+                "label": "Social Science-VIII"
+            }
+        }
+    ],
+    "errorMessage": "",
+    "success": true
+}

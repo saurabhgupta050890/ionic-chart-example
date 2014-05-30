@@ -1,0 +1,139 @@
+[{
+  "objectKey": {
+    "id": 1,
+    "label": "FA1",
+    "type": "stage"
+  },
+  "subjectList": [{
+    "objectKey": {
+      "id": 1,
+      "label": "Life and Skills - I",
+      "type": "Subject"
+    },
+    "grade": "A1",
+    "maximumMarks": 10,
+    "marksObtained": 7,
+    "teacher": {
+      "id": 1,
+      "label": "Pooja Singh"
+    }
+  }, {
+    "objectKey": {
+      "id": 2,
+      "label": "Maths - II",
+      "type": "Subject"
+    },
+    "grade": "B1",
+    "maximumMarks": 10,
+    "marksObtained": 7,
+    "teacher": {
+      "id": 3,
+      "label": "Aastha Mathur"
+    }
+  }, {
+    "objectKey": {
+      "id": 3,
+      "label": "French",
+      "type": "Subject"
+    },
+    "grade": "C1",
+    "maximumMarks": 10,
+    "marksObtained": 7,
+    "teacher": {
+      "id": 3,
+      "label": "Manini Gaur"
+    }
+  }]
+}, {
+  "objectKey": {
+    "id": 2,
+    "label": "FA2",
+    "type": "stage"
+  },
+  "subjectList": [{
+    "objectKey": {
+      "id": 1,
+      "label": "Hindi - I",
+      "type": "Subject"
+    },
+    "grade": "A2",
+    "maximumMarks": 10,
+    "marksObtained": 7,
+     "teacher": {
+      "id": 1,
+      "label": "Pooja Singh"
+    }
+  }, {
+    "objectKey": {
+      "id": 2,
+      "label": "Maths - II",
+      "type": "Subject"
+    },
+    "grade": "A3",
+    "maximumMarks": 10,
+    "marksObtained": 7,
+    "teacher": {
+      "id": 3,
+      "label": "Aastha Mathur"
+    }
+  }, {
+    "objectKey": {
+      "id": 3,
+      "label": "French",
+      "type": "Subject"
+    },
+    "grade": "D4",
+    "maximumMarks": 10,
+    "marksObtained": 7,
+    "teacher": {
+      "id": 3,
+      "label": "Manini Gaur"
+    }
+  }]
+}, {
+  "objectKey": {
+    "id": 1,
+    "label": "Term 1",
+    "type": "Term"
+  },
+  "subjectList": [{
+    "objectKey": {
+      "id": 1,
+      "label": "Hindi - I",
+      "type": "Subject"
+    },
+    "grade": "A2",
+    "maximumMarks": 10,
+    "marksObtained": 7,
+    "teacher": {
+      "id": 1,
+      "label": "Pooja Singh"
+    }
+  }, {
+    "objectKey": {
+      "id": 2,
+      "label": "Maths - II",
+      "type": "Subject"
+    },
+    "grade": "F",
+    "maximumMarks": 10,
+    "marksObtained": 7,
+    "teacher": {
+      "id": 3,
+      "label": "Aastha Mathur"
+    }
+  }, {
+    "objectKey": {
+      "id": 3,
+      "label": "French",
+      "type": "Subject"
+    },
+    "grade": "C4",
+    "maximumMarks": 10,
+    "marksObtained": 7,
+    "teacher": {
+      "id": 3,
+      "label": "Manini Gaur"
+    }
+  }]
+}]

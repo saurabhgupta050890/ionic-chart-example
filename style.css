@@ -1,0 +1,39 @@
+/* Styles go here */
+
+.card-header {
+  padding:2px;
+  border:1px solid gray;
+  display: inline-block; 
+}
+
+.fancy-frame2 {
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-color: #09C #F0F0F0;
+border-image: none;
+border-radius: 100px 0 100px 0;
+-webkit-border-radius: 100px 0 100px 0;
+-moz-border-radius: 100px 0 100px 0;
+border-style: solid;
+border-width: 5px;
+box-shadow: 0 0 4px 0 #666666;
+}
+
+.A-grade {
+  background-color:#53a93f;
+}
+.B-grade {
+  background-color:#427fed;
+}
+.C-grade {
+  background-color:#FF7E00;
+}
+.O-grade {
+  background-color: rgb(221,75,57);
+}
+
+.is-active {
+  color:#0088cc;
+}

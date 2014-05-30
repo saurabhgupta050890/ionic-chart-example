@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="lib/ionic/css/ionic.css"  />
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet" type="text/css" />
+    <link href="lib/angular-nvd3/nv.d3.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Angular ,Ionic and Other Sources -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-animate.js"></script>
+    <script src="lib/angular/angular-resource.js"></script>
+    <script src="lib/angular/angular-route.js"></script>
+    <script src="lib/angular/angular-ui-router.js"></script>
+    <script src="lib/angular/angular-sanitize.js"></script>
+    <script src="lib/angular/angular-touch.js"></script>
+    <script src="lib/ionic/js/ionic-angular.js"></script>
+    <script src="lib/ionic/js/ionic.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- D3 JS sources -->
+    <script src="lib/angular-nvd3/d3.min.js"></script>
+    <script src="lib/angular-nvd3/nv.d3.min.js"></script>
+    <script src="lib/angular-nvd3/angular-nvd3.js"></script>
+
+    <!-- Chart js Sources-->
+    <!--<script src="lib/angles/chart.js"></script>
+    <script src="lib/angles/angles.js"></script>-->
+
+    <!-- Google Charts Source -->
+    <script src="script.js"></script>
+    <script src="lib/google-charts/ng-google-chart.js"></script>
+
+    <!-- High Charts Sources -->
+    <script src="lib/highcharts/highcharts.src.js"></script>
+    <script src="lib/highcharts/highcharts-ng.js"></script>
+</head>
+
+<body ng-app="a" ng-controller="b" style="font-family:Droid Sans">
+<ion-tabs class="tabs-info tabs-icon-top">
+    <ion-tab title="Ward Performance" icon-on="ion-arrow-graph-up-right is-active" icon-off="ion-arrow-graph-up-right">
+        <div class="bar bar-header bar-positive">
+            <h1 class="title"> Ward Performance </h1>
+        </div>
+        <ion-content class="has-header">
+            <div class="card list" ng-repeat="p in performance">
+                <div style="padding:5px; border:2px solid #0088cc; display: inline-block; margin-left:6px;min-width:100px;text-align:center;background-color:#0088cc;color:white;border-radius:5px 5px 0 0">
+                    {{p.objectKey.label}}
+                </div>
+                <div ng-repeat="subject in p.subjectList" class="item">
+                    <div class="item item-divider" style="font-weight:normal">
+                        <span style="white-space:normal;word-wrap:break-word;"> {{subject.objectKey.label}}</span>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col col-center" style="padding:0">
+                  <span style="font-size:1.5em">
+                <span ng-show="subject.marksObtained">{{subject.marksObtained}} / {{subject.maximumMarks}} </span>
+              </span>
+                            </div>
+                            <div class="col col-center" style="padding:0">
+                                <span style="padding:8px 5px 8px 5px;border-radius:2px;color:white;font-size:1.5em" ng-class="getGradeClass(subject.grade)"> {{subject.grade}} </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+    </ion-tab>
+    <ion-tab title="D3 JS" icon-on="ion-stats-bars is-active" icon-off="ion-stats-bars">
+        <div class="bar bar-header bar-positive">
+            <h1 class="title"> D3 JS</h1>
+        </div>
+        <ion-content class="has-header">
+            <!--<canvas barchart="" options="options" data="chart" style="bottom:0;position:absolute;height:100%;width:100%"></canvas>-->
+            <div style="padding: 3px;height: 100%;border: 1px solid red" class="has-header has-footer">
+                <nvd3 options='options' data='data'></nvd3>
+            </div>
+        </ion-content>
+    </ion-tab>
+    <ion-tab title="HighCharts" icon-on="ion-map is-active" icon-off="ion-map">
+        <div class="bar bar-header bar-positive">
+            <h1 class="title"> HighCharts </h1>
+        </div>
+
+        <div style="position:absolute;height: 100%;border: 1px solid red;width: 100%;" class="has-header has-footer">
+            <!--<canvas linechart data="chart" ng-options="myChartOptions" style="width: 100%;height:100%;border: 1px solid green;padding-bottom: 44px"></canvas>-->
+            <highchart id="chart1" config="chartConfig"></highchart>
+        </div>
+
+    </ion-tab>
+    <ion-tab title="Google chart" icon-on="ion-social-googleplus is-active" icon-off="ion-social-googleplus">
+        <div class="bar bar-header bar-positive">
+            <h1 class="title"> Google Chart </h1>
+        </div>
+        <div class="has-header has-footer" style="position: absolute;width: 100%;height: 100%;">
+            <div google-chart chart1="sampleData" style="width: 100%;height:100%;border: 1px solid green;padding-bottom: 44px" class="has-footer">
+            </div>
+        </div>
+    </ion-tab>
+</ion-tabs>
+</body>
+
+</html>
