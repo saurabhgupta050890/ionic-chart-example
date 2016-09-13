@@ -14,17 +14,17 @@ JavaScript Charting Libraries included are:
 
 
 
-Google Charts 
-ChartJS/ Angles (ng1)
-D3
-ChartistJS
-n3-Charts
-nvD3
-Smoothie Charts
-ZingCharts
-HighCharts
-Fusion Charts
-amCharts
+1. Google Charts 
+2. ChartJS/ Angles (ng1)
+3. D3
+4. ChartistJS
+5. n3-Charts
+6. nvD3
+7. Smoothie Charts
+8. ZingCharts
+9. HighCharts
+10. Fusion Charts
+11. amCharts
 EJS Chart
 uvCharts
 plotlyJS
